@@ -8,6 +8,7 @@
         @yield('title')
     
 </title>
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
 
@@ -27,7 +28,7 @@
     
 <footer>
         
-<p>Pie de página &copy; 2025</p>
+@include('_partials.footer')
     
 </footer>
 </body>
